@@ -9,7 +9,7 @@ body{
 
 .header{
     display:flex;
-    padding: 0 350px;
+    padding: 0 350px 50px 350px;
     background-color: #1F2937;
     justify-content: center;
 }
@@ -34,7 +34,7 @@ body{
 
 .section-one{
     display:flex;
-    padding:  50px 350px;
+    padding: 50px 350px 100px 350px;
     align-items: center;
     gap:50px;
     background-color: #1F2937;
@@ -49,6 +49,7 @@ body{
 .section-one p{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 50px;
 }
 
 .section-one button{
@@ -71,7 +72,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 350px;
+    padding: 100px 350px;
 }
 
 .section-two-title{
@@ -105,6 +106,7 @@ body{
 
 .card p{
     width: 150px;
+    color: darkgray;
 }
 
 .section-three{
@@ -133,8 +135,8 @@ body{
 .section-four{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .cta-container{
