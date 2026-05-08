@@ -84,7 +84,7 @@ body{
 
 .section-two-cards{
     display: flex;
-    gap:20px;
+    gap:100px;
     justify-content: center;
 }
 
@@ -101,4 +101,8 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 8px;
+}
+
+.card p{
+    width: 150px;
 }
