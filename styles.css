@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
     font-family: 'Roboto' , sans-serif;
@@ -5,8 +9,9 @@ body{
 
 .header{
     display:flex;
-    padding: 0 100px;
+    padding: 0 350px;
     background-color: #1F2937;
+    justify-content: center;
 }
 
 .title{
@@ -29,15 +34,8 @@ body{
 
 .section-one{
     display:flex;
-    padding: 50px;
-    justify-content: center;
-    gap:50px;
-}
-
-.section-one{
-    display:flex;
-    padding: 50px;
-    justify-content: center;
+    padding:  50px 350px;
+    align-items: center;
     gap:50px;
     background-color: #1F2937;
 }
@@ -54,10 +52,17 @@ body{
 }
 
 .section-one button{
-    color:white;
+    font-size: 18px;
+    color: #E5E7EB;
     background-color: #3882F6;
     border: none;
     width: 150px;
     height: 40px;
+    border-radius: 8px;
+}
+
+.section-one img{
+    width: 500px;
+    height: auto;
     border-radius: 8px;
 }
