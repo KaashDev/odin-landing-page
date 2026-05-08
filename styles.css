@@ -106,3 +106,26 @@ body{
 .card p{
     width: 150px;
 }
+
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 350px;
+}
+
+.section-three-quote p{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 200;
+}
+
+.section-three-person{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-three-person p{
+    font-size: 20px;
+    font-weight: 900;
+}
