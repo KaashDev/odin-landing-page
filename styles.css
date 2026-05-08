@@ -26,3 +26,38 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.section-one{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    gap:50px;
+}
+
+.section-one{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    gap:50px;
+    background-color: #1F2937;
+}
+
+.section-one h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.section-one p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one button{
+    color:white;
+    background-color: #3882F6;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+}
