@@ -227,13 +227,19 @@ body{
 
 .footer{
     display:flex;
+    flex-direction: column;
     padding: 40px 350px;
     background-color: #0B1F3A;
     justify-content: center;
+    align-items: center;
     color: #F9FAF8;
     font-size: 18px;
     text-align: center;
     line-height: 2rem;
+}
+
+.footer a{
+    color:#F9FAF8;
 }
 
 .under-construction{
