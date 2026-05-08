@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.header{
+    display:flex;
+    padding: 0 100px;
+    background-color: #1F2937;
+}
+
+.title{
+    align-items: center;
+    flex:1;
+    color: white;
+}
+
+.links{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    gap:20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
