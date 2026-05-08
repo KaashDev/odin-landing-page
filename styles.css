@@ -179,4 +179,6 @@ body{
     justify-content: center;
     color: white;
     font-size: 18px;
+    text-align: center;
+    line-height: 2rem;
 }
