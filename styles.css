@@ -167,3 +167,12 @@ body{
     height: 40px;
     border-radius: 8px;
 }
+
+.footer{
+    display:flex;
+    padding: 40px 350px;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
