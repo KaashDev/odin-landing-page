@@ -1,6 +1,6 @@
 # odin-landing-page
 
-Created simple website from scratch.
+Created simple landing page from scratch.
 
 # Stack
     -HTML
